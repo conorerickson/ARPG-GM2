@@ -10,20 +10,4 @@ keyItem = keyboard_check(vk_control);
 inputDirection = point_direction(0, 0, keyRight - keyLeft, keyDown - keyUp);
 inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0);
 
-//Movement logic
-hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
-vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
-
-PlayerCollison();
-
-//Update sprite index
-var _oldSprite = sprite_index;
-if(inputMagnitude != 0) 
-{
-	direction = inputDirection;
-	sprite_index = spriteRun;
-} else sprite_index = spriteIdle;
-if(_oldSprite != sprite_index) localFrame = 0;
-
-//Update image index
-PlayerAnimateSprite();
+script_execute(state);
