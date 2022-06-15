@@ -1,5 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":1,},
+    {"id":{"name":"PlayerAnimateSprite","path":"scripts/PlayerAnimateSprite/PlayerAnimateSprite.yy",},"order":0,},
+    {"id":{"name":"rm_example","path":"rooms/rm_example/rm_example.yy",},"order":1,},
+    {"id":{"name":"fnt_example","path":"fonts/fnt_example/fnt_example.yy",},"order":0,},
+    {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},"order":1,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"Room0","path":"rooms/Room0/Room0.yy",},"order":0,},
@@ -17,6 +22,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
+    {"roomId":{"name":"rm_example","path":"rooms/rm_example/rm_example.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
