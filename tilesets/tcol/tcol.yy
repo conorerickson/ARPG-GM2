@@ -1,9 +1,4 @@
 {
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
-  "name": "tCol",
   "spriteId": {
     "name": "sColl",
     "path": "sprites/sColl/sColl.yy",
@@ -14,9 +9,13 @@
   "tileyoff": 0,
   "tilehsep": 0,
   "tilevsep": 0,
+  "spriteNoExport": true,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
   "out_tilehborder": 2,
   "out_tilevborder": 2,
-  "spriteNoExport": true,
   "out_columns": 2,
   "tile_count": 4,
   "autoTileSets": [],
@@ -41,6 +40,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "tCol",
   "tags": [],
   "resourceType": "GMTileSet",
 }
