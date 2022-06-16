@@ -6,6 +6,7 @@ keyDown = keyboard_check(vk_down) || keyboard_check(ord("S"));
 keyInteract = keyboard_check(vk_space);
 keyAttack = keyboard_check(vk_shift);
 keyItem = keyboard_check(vk_control);
+keyMenu = keyboard_check(ord("I"));
 
 inputDirection = point_direction(0, 0, keyRight - keyLeft, keyDown - keyUp);
 inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0);
