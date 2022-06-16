@@ -16,4 +16,9 @@ function PlayerStateRoll(){
 	{
 		state = PlayerStateFree;
 	}
+	if(_collided)
+	{
+		state = PlayerStateFree;
+		ScreenShake(2, 15); 
+	}
 }
