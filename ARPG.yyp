@@ -11,6 +11,7 @@
     {"id":{"name":"oSignpost","path":"objects/oSignpost/oSignpost.yy",},"order":7,},
     {"id":{"name":"NineSlicedBoxStretched","path":"scripts/NineSlicedBoxStretched/NineSlicedBoxStretched.yy",},"order":6,},
     {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},"order":1,},
+    {"id":{"name":"DialogueResponses","path":"scripts/DialogueResponses/DialogueResponses.yy",},"order":10,},
     {"id":{"name":"sSignpost","path":"sprites/sSignpost/sSignpost.yy",},"order":6,},
     {"id":{"name":"rInit","path":"rooms/rInit/rInit.yy",},"order":2,},
     {"id":{"name":"sTextBoxBg","path":"sprites/sTextBoxBg/sTextBoxBg.yy",},"order":5,},
