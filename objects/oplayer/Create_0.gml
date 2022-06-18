@@ -14,3 +14,5 @@ spriteRoll = sPlayerRoll;
 spriteRun = sPlayerRun;
 spriteIdle = sPlayer;
 localFrame = 0;
+
+NewTextBox("Controls:\n Space: Interact\n X: Close Textbox",0);
