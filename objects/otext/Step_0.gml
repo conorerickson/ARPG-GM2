@@ -26,6 +26,15 @@ if(keyboard_check(ord("X")))
 	var _messageLength = string_length(message);
 	if(textProgress >= _messageLength)
 	{
+		
+		if(responses[0] != -1)
+		{
+			with(originInstance)
+			{
+				DialogueResponses(other.responseScripts[other.responseSelected]);
+			}
+		}
+		
 		instance_destroy();
 		if(instance_exists(oTextQueued))
 		{
