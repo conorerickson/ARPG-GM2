@@ -4,6 +4,7 @@
     {"id":{"name":"oTextQueued","path":"objects/oTextQueued/oTextQueued.yy",},"order":5,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":1,},
     {"id":{"name":"rVillage","path":"rooms/rVillage/rVillage.yy",},"order":3,},
+    {"id":{"name":"oNPC","path":"objects/oNPC/oNPC.yy",},"order":8,},
     {"id":{"name":"sNPC","path":"sprites/sNPC/sNPC.yy",},"order":7,},
     {"id":{"name":"oText","path":"objects/oText/oText.yy",},"order":4,},
     {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},"order":2,},

@@ -34,14 +34,13 @@ if(keyActivate){
 	{
 		ScriptExecuteArray(activate.entityActivateScript, activate.entityActivateArgs);
 		
-		if(activate.entityNPC)
-		{
-			with(activate)
+		if(activate.entityNPC) {
+		with(activate)
 			{
-				direction = point_direction(x, y, other.x, other.y);
-				image_index = CARDINAL_DIR;
+            image_index = (other.direction/90)-2;
 			}
-		}
+
+}
 	}
 }
 

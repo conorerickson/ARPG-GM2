@@ -24,6 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
+    {"compositeImage":{"FrameId":{"name":"9cbf4b26-7843-48c3-b1bc-4fdebdec54d8","path":"sprites/sNPC/sNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9cbf4b26-7843-48c3-b1bc-4fdebdec54d8","path":"sprites/sNPC/sNPC.yy",},"LayerId":{"name":"f2945107-1d3d-4fbf-b0ae-6bddbc2d1035","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNPC","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","name":"9cbf4b26-7843-48c3-b1bc-4fdebdec54d8","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"bbbdcf11-c16e-44f7-b461-438a0d549562","path":"sprites/sNPC/sNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"bbbdcf11-c16e-44f7-b461-438a0d549562","path":"sprites/sNPC/sNPC.yy",},"LayerId":{"name":"f2945107-1d3d-4fbf-b0ae-6bddbc2d1035","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sNPC","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","name":"bbbdcf11-c16e-44f7-b461-438a0d549562","tags":[],"resourceType":"GMSpriteFrame",},
@@ -33,9 +36,6 @@
     {"compositeImage":{"FrameId":{"name":"33865e87-329f-4064-aaf7-047d091225dd","path":"sprites/sNPC/sNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"33865e87-329f-4064-aaf7-047d091225dd","path":"sprites/sNPC/sNPC.yy",},"LayerId":{"name":"f2945107-1d3d-4fbf-b0ae-6bddbc2d1035","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sNPC","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","name":"33865e87-329f-4064-aaf7-047d091225dd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5b3ed5e7-b447-451a-a6cd-120f8e139bdd","path":"sprites/sNPC/sNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5b3ed5e7-b447-451a-a6cd-120f8e139bdd","path":"sprites/sNPC/sNPC.yy",},"LayerId":{"name":"f2945107-1d3d-4fbf-b0ae-6bddbc2d1035","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sNPC","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","name":"5b3ed5e7-b447-451a-a6cd-120f8e139bdd","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sNPC","path":"sprites/sNPC/sNPC.yy",},
@@ -50,10 +50,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0aad2800-2b0c-4135-977c-4aa8c59401ff","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bbbdcf11-c16e-44f7-b461-438a0d549562","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"48f9723f-efd1-4583-92b9-86e4b3245004","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"460ef99c-d9b1-4907-819e-0a1687f1ba0a","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"8ce4d3e5-e91e-45cb-a1c8-87410cd88b2f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"33865e87-329f-4064-aaf7-047d091225dd","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"2c21db29-7f56-4f04-8e53-16ddd7c0bf21","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5b3ed5e7-b447-451a-a6cd-120f8e139bdd","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1ae42c2a-5fdf-4ad3-aed9-f34d21b25f17","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9cbf4b26-7843-48c3-b1bc-4fdebdec54d8","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0aad2800-2b0c-4135-977c-4aa8c59401ff","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bbbdcf11-c16e-44f7-b461-438a0d549562","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"48f9723f-efd1-4583-92b9-86e4b3245004","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"460ef99c-d9b1-4907-819e-0a1687f1ba0a","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8ce4d3e5-e91e-45cb-a1c8-87410cd88b2f","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"33865e87-329f-4064-aaf7-047d091225dd","path":"sprites/sNPC/sNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
